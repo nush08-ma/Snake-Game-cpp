@@ -12,7 +12,9 @@ Real-time Input Handling: Uses non-blocking input (kbhit and getch) for crisp an
 
 Score Tracker: Keeps a live count of your current score at the top of the terminal.
 
-## ControlsUse standard WASD keys to navigate the snake around the console screen:
+## Controls
+
+### Use standard WASD keys to navigate the snake around the console screen:
 | Key | Action | Opposite Restriction |
 | :---: | :--- | :--- |
 | **`W` / `w`** | Move **UP** | Cannot move directly into **DOWN** |
@@ -20,7 +22,9 @@ Score Tracker: Keeps a live count of your current score at the top of the termin
 | **`S` / `s`** | Move **DOWN** | Cannot move directly into **UP** |
 | **`D` / `d`** | Move **RIGHT** | Cannot move directly into **LEFT** |
 
-## Code ArchitectureThe project is structured using clean Object-Oriented Programming (OOP) principles:
+## Code Architecture
+
+### The project is structured using clean Object-Oriented Programming (OOP) principles:
 Point Struct: Represents 2D coordinates (x, y) on the console grid.
 
 Snake Class: Manages the snake's state, length growth, self-collision logic, and direction constraints (e.g., preventing the snake from reversing directly into itself).
